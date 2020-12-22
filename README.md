@@ -13,6 +13,12 @@ docker exec -it conv-tasnet-test bash
 python Separation_wav.py -mix_scp /root/test.wav -yaml options/train/train.yml -model /root/best.pt -save_path ./checkpoint
 ```
 
+## Input file format
+Input audio file must be .wav and 8kHz, you can use [FFmpeg](https://github.com/FFmpeg/FFmpeg) to convert it like:
+```
+ffmpeg -i input.wav -ar 8000 output.wav
+```
+
 ### Requirement
 - **Pytorch 1.3.0**
 - **TorchAudio 0.3.1**
