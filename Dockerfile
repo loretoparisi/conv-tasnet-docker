@@ -1,6 +1,6 @@
 #
-# Musixmatch Model Hub
-# @author Loreto Parisi (loreto at musixmatch dot com)
+# Conv-TasNet Docker
+# @author Loreto Parisi (loretoparisi at gmail dot com)
 # Copyright (c) 2020 Loreto Parisi
 #
 
